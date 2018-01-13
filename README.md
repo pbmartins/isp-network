@@ -7,6 +7,8 @@ that you should import: [link](https://mega.nz/#F!eM0RDDTI!TSDEfUmIhl4a-yztWpJzL
 Also, you'll need some VMs. I recommend using VirtualBox3 and importing the 
 following appliences: [link](https://mega.nz/#!bMFQGRLb!cgqFK7mkabuzagvUlFjE3XXOfLR_JKA8AcreCDCoJYM)
 
+![Network](isp.png)
+
 If you have any doubts relatively to the project, check the report.
 
 Diogo Ferreira
