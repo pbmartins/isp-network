@@ -1,0 +1,16 @@
+Dec 16 12:00:48.022 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 16 12:00:48.022 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50494.
+Dec 16 12:00:48.030 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 16 12:00:48.030 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/pedromartins/Documents/UA/4_year/ara/project/project-files/dynamips 
+Dec 16 12:00:48.030 GENERAL: working_dir=/Users/pedromartins/Documents/UA/4_year/ara/project/project-files/dynamips
+Dec 16 12:00:48.031 HYPERVISOR: exec_cmd: ethsw create DatacenterAveiro 
+Dec 16 12:00:53.651 HYPERVISOR: exec_cmd: nio create_udp udp-ee817fda-9039-4289-8b39-cfa6ac2512bc 10101 127.0.0.1 10100 
+Dec 16 12:00:53.651 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterAveiro udp-ee817fda-9039-4289-8b39-cfa6ac2512bc 
+Dec 16 12:00:53.658 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterAveiro udp-ee817fda-9039-4289-8b39-cfa6ac2512bc 1 
+Dec 16 12:00:56.071 HYPERVISOR: exec_cmd: nio create_udp udp-d5900037-43c0-402c-9cea-6b613fb878d8 10148 127.0.0.1 10149 
+Dec 16 12:00:56.071 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterAveiro udp-d5900037-43c0-402c-9cea-6b613fb878d8 
+Dec 16 12:00:56.077 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterAveiro udp-d5900037-43c0-402c-9cea-6b613fb878d8 1 
+Dec 16 17:37:01.136 HYPERVISOR: exec_cmd: ethsw delete DatacenterAveiro 
+Dec 16 17:37:01.172 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 16 17:37:01.206 HYPERVISOR: Stopped.
+Dec 16 17:37:01.206 GENERAL: reset done.

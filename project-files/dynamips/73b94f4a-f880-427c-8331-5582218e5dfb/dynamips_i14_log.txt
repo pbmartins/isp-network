@@ -1,0 +1,13 @@
+Dec 16 12:00:48.080 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 16 12:00:48.081 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50500.
+Dec 16 12:00:48.089 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 16 12:00:48.089 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/pedromartins/Documents/UA/4_year/ara/project/project-files/dynamips 
+Dec 16 12:00:48.089 GENERAL: working_dir=/Users/pedromartins/Documents/UA/4_year/ara/project/project-files/dynamips
+Dec 16 12:00:48.090 HYPERVISOR: exec_cmd: ethsw create NetC 
+Dec 16 12:00:50.460 HYPERVISOR: exec_cmd: nio create_udp udp-fa832457-dcc1-44ea-906f-45d76479a09b 10001 127.0.0.1 10000 
+Dec 16 12:00:50.461 HYPERVISOR: exec_cmd: ethsw add_nio NetC udp-fa832457-dcc1-44ea-906f-45d76479a09b 
+Dec 16 12:00:50.479 HYPERVISOR: exec_cmd: ethsw set_access_port NetC udp-fa832457-dcc1-44ea-906f-45d76479a09b 1 
+Dec 16 17:37:01.144 HYPERVISOR: exec_cmd: ethsw delete NetC 
+Dec 16 17:37:01.153 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 16 17:37:01.620 HYPERVISOR: Stopped.
+Dec 16 17:37:01.620 GENERAL: reset done.

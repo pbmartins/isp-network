@@ -1,0 +1,16 @@
+Dec 16 12:00:48.050 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 16 12:00:48.050 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50497.
+Dec 16 12:00:48.059 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 16 12:00:48.060 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/pedromartins/Documents/UA/4_year/ara/project/project-files/dynamips 
+Dec 16 12:00:48.060 GENERAL: working_dir=/Users/pedromartins/Documents/UA/4_year/ara/project/project-files/dynamips
+Dec 16 12:00:48.060 HYPERVISOR: exec_cmd: ethsw create NetA1 
+Dec 16 12:00:50.956 HYPERVISOR: exec_cmd: nio create_udp udp-a5ebdcdc-3780-46f5-a61b-8af2eacddcad 10013 127.0.0.1 10012 
+Dec 16 12:00:50.957 HYPERVISOR: exec_cmd: ethsw add_nio NetA1 udp-a5ebdcdc-3780-46f5-a61b-8af2eacddcad 
+Dec 16 12:00:50.974 HYPERVISOR: exec_cmd: ethsw set_access_port NetA1 udp-a5ebdcdc-3780-46f5-a61b-8af2eacddcad 1 
+Dec 16 12:00:55.353 HYPERVISOR: exec_cmd: nio create_udp udp-1768fa10-6af8-4f10-90fa-28cdfd686747 10134 127.0.0.1 10135 
+Dec 16 12:00:55.353 HYPERVISOR: exec_cmd: ethsw add_nio NetA1 udp-1768fa10-6af8-4f10-90fa-28cdfd686747 
+Dec 16 12:00:55.358 HYPERVISOR: exec_cmd: ethsw set_access_port NetA1 udp-1768fa10-6af8-4f10-90fa-28cdfd686747 1 
+Dec 16 17:37:01.126 HYPERVISOR: exec_cmd: ethsw delete NetA1 
+Dec 16 17:37:01.154 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 16 17:37:01.206 HYPERVISOR: Stopped.
+Dec 16 17:37:01.207 GENERAL: reset done.
